@@ -47,6 +47,7 @@ RUN set -xe \
         gd \
         mbstring \
         mcrypt \
+        calendar \
     && pecl install \
         apcu \
         redis \
